@@ -1,3 +1,5 @@
+# Docker Compose voor een lokale Hubs omgeving
+
 
 **Pre-installatie vereisten**
 	- Docker desktop
