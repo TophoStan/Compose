@@ -2,7 +2,7 @@
 
 
 **Pre-installatie vereisten**
-	- Docker desktop
+- Docker desktop
 
 
 Met behulp van docker compose is het mogelijk om simpel een cluster van verschillende applicaties binnen seconden te hebben opgestart.
@@ -140,3 +140,7 @@ jwk = Application.get_env(:ret, Ret.PermsToken)[:perms_key] |> JOSE.JWK.from_pem
 **Limitaties lokale instantie van Mozilla Hubs**
 Het importeren van scenes die je lokaal hebt gemaakt is niet mogelijk
 Het importeren van iets kan alleen met een http**s** verbinding
+
+
+## Systeem overizcht (credits aan [albirrkarim](https://github.com/albirrkarim/mozilla-hubs-installation-detailed))
+![albirrkarim!](https://github.com/albirrkarim/mozilla-hubs-installation-detailed/blob/main/docs_img/System_Overview.png?raw=true)
