@@ -59,9 +59,7 @@ services:
     volumes:
       - .:/app/storage/dev
   app:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: stantop/local-reticulum
     ports:
       - "4000:4000"
     depends_on:
